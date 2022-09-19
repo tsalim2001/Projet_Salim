@@ -6,9 +6,22 @@ body{
     padding: 0;
     margin: 0;
 }
- ul{ 
+ul{ 
     margin: 0;
     padding: 0;
+}
+nav{
+    /* LA BARRE NE BOUGE PAS ELLE DEFILE EN MONTANT ET DESECANDANT */
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+/* POUR VALLER CHERCHER LES LI DU HEADER */
+header li{
+float: right;
+font-size: 1.2em;
 }
 /*li{
     list-style: none;
@@ -28,4 +41,5 @@ a{
     text-align: center;
     
 }
-   */
+   
+Source du site: projet html+css de frome scratch le devloppement web de zero*/
